@@ -2,20 +2,22 @@
 name: User Story
 about: Template for creating user stories
 title: "[User Story] "
-labels: user story
+labels: ''
 assignees: ''
+
 ---
 
-### User Story
-
-**As a** [type of user]  
-**I need** [feature]  
-**So that** [reason]  
-
-### Acceptance Criteria
-- [ ] Criterion 1  
-- [ ] Criterion 2  
-- [ ] Criterion 3  
-
-### Notes
-(Additional details if needed)
+**As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
+   
+ ### Details and Assumptions
+ * [document what you know]
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
